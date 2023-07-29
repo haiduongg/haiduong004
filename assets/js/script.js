@@ -4,8 +4,12 @@ darkMode.onclick = function () {
   document.body.classList.toggle('dark-theme');
   if (document.body.classList.contains('dark-theme')) {
     darkMode.setAttribute('class', 'bx bxs-moon');
+    document.querySelector('.header__logo-github').style.filter =
+      'invert(100%)';
     document.body.style.transition = '1s';
   } else {
+    document.querySelector('.header__logo-github').style.filter =
+      'invert(0%)';
     darkMode.setAttribute('class', 'bx bxs-sun');
   }
 };

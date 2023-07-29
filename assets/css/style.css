@@ -206,7 +206,8 @@ body {
 }
 .about__introduction {
   max-width: 137rem;
-  background-color: var(--second-background-color);
+  border: 0.3rem solid var(--second-text-color);
+  overflow: hidden;
   border-radius: 1rem;
   padding: 2rem;
 }
@@ -257,7 +258,7 @@ body {
 .about__skills {
   margin-top: 3rem;
   padding: 3rem 0 3rem;
-  border: 0.2rem solid var(--text-color);
+  border: 0.3rem solid var(--text-color);
   border-radius: 0.5rem;
 }
 .about__skills-heading {
