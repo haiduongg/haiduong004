@@ -1,7 +1,6 @@
 :root {
   --background-color: #101010;
   --second-background-color: #1d1d1d;
-  --non-active: #474748;
   --text-color: #f9d679;
   --second-text-color: #fefefe;
   transition: 1s;
@@ -10,7 +9,6 @@
 .dark-theme {
   --background-color: #fefefe;
   --second-background-color: rgb(184, 184, 184);
-  --non-active: #8f8f8f;
   --text-color: #d33e43;
   --second-text-color: #101010;
 }
@@ -28,6 +26,7 @@ html {
 
 a {
   text-decoration: none;
+  color: var(--second-text-color);
 }
 
 h1 {
@@ -124,19 +123,14 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
     & a {
-      color: var(--non-active);
+      opacity: 0.4;
       transition: 0.5s;
-      padding-bottom: 0.3rem;
       border-bottom: 0.3rem solid transparent;
+      padding-bottom: 0.3rem;
       letter-spacing: 0.1rem;
       text-transform: uppercase;
       &:hover {
-        color: var(--second-text-color);
-        transition: 0.5s;
-      }
-      &:focus {
-        color: var(--second-text-color);
-        border-bottom: 0.3rem solid var(--text-color);
+        opacity: 1;
         transition: 0.5s;
       }
     }
@@ -144,6 +138,14 @@ body {
   &__logo-github {
     width: 3.8rem;
   }
+}
+
+.active {
+  color: var(--second-text-color);
+  transition: 0.5s;
+  opacity: 1 !important;
+  border-bottom: 0.3rem solid var(--text-color) !important;
+  transition: 0.5s;
 }
 
 #menu-icon {
@@ -176,6 +178,7 @@ body {
 
 /* home 440*/
 .home {
+  display: none;
   padding-top: 21rem;
   max-width: 73rem;
   margin: 0 auto;
@@ -205,6 +208,7 @@ body {
 }
 
 .about {
+  display: none;
   margin: 0 auto;
   max-width: 137rem;
   padding: 10rem 18.7rem 0;
@@ -302,6 +306,10 @@ body {
       }
     }
   }
+}
+
+.pg-active {
+  display: block;
 }
 
 @media only screen and (max-width: 1024px) {

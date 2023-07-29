@@ -11,3 +11,20 @@ darkMode.onclick = function () {
 };
 
 // Tabs UI
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
+const tabs = $$('.header__menu-item a');
+const panes = $$('section');
+
+tabs.forEach((tab, index) => {
+  tab.onclick = function () {
+    const pane = panes[index];
+
+    $('.header__menu-item a.active').classList.remove('active');
+    $('section.pg-active').classList.remove('pg-active');
+
+    this.classList.add('active');
+    pane.classList.add('pg-active');
+  };
+});
