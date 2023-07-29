@@ -247,9 +247,15 @@ body {
         }
       }
       & span {
+        & p {
+          font-size: 2rem;
+          padding-bottom: .8rem;
+        }
         padding-left: 6rem;
-        font-size: 1.1rem;
-        line-height: 1.7rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        line-height: 2.5rem;
       }
     }
   }

@@ -245,8 +245,14 @@ body {
 }
 .about__introduction-main span {
   padding-left: 6rem;
-  font-size: 1.1rem;
-  line-height: 1.7rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+}
+.about__introduction-main span p {
+  font-size: 2rem;
+  padding-bottom: 0.8rem;
 }
 .about__skills {
   margin-top: 3rem;
