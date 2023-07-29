@@ -1,0 +1,401 @@
+:root {
+  --background-color: #101010;
+  --second-background-color: #1d1d1d;
+  --non-active: #474748;
+  --text-color: #f9d679;
+  --second-text-color: #fefefe;
+  transition: 1s;
+}
+
+.dark-theme {
+  --background-color: #fefefe;
+  --second-background-color: rgb(184, 184, 184);
+  --non-active: #8f8f8f;
+  --text-color: #d33e43;
+  --second-text-color: #101010;
+}
+
+@mixin flex($justify: center, $align: center, $wrap: nowrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  word-wrap: $wrap;
+}
+
+html {
+  font-size: 62.5%; // 1 rem = 10px
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  color: var(--second-text-color);
+  font-size: 5rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  // Gradient text
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    var(--second-text-color),
+    var(--text-color)
+  );
+
+  font-size: 3rem;
+  padding: 1rem 0;
+
+  // Typing Effect
+  width: 13ch;
+  animation: typing 2s steps(13), blink 0.4s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.3rem solid var(--text-color);
+  animation-delay: 0.5s;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--second-text-color);
+}
+
+h4 {
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* 1840 1370*/
+.wrapper {
+  position: relative;
+  max-width: 184rem;
+  margin: 0 auto;
+  #darkMode-icon {
+    position: fixed;
+    top: 7%;
+    right: 7%;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+}
+
+/* Header */
+.header {
+  position: fixed;
+  // Vỏ bọc {container}
+  margin: 0 auto;
+  max-width: 137rem;
+  padding: 0 18.7rem;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include flex(space-between, center);
+  padding-top: 3.5rem;
+  &__menu-list {
+    @include flex(center, center);
+  }
+  &__menu-item {
+    margin-left: 3.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    & a {
+      color: var(--non-active);
+      transition: 0.5s;
+      padding-bottom: 0.3rem;
+      border-bottom: 0.3rem solid transparent;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      &:hover {
+        color: var(--second-text-color);
+        transition: 0.5s;
+      }
+      &:focus {
+        color: var(--second-text-color);
+        border-bottom: 0.3rem solid var(--text-color);
+        transition: 0.5s;
+      }
+    }
+  }
+  &__logo-github {
+    width: 3.8rem;
+  }
+}
+
+#menu-icon {
+  font-size: 3rem;
+  color: var(--text-color);
+  cursor: pointer;
+  display: none;
+}
+
+.logo__text {
+  position: relative;
+  color: var(--text-color);
+  font-size: 1.75rem;
+  font-weight: 600;
+  &-first {
+    color: var(--second-text-color);
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120%;
+    height: 120%;
+    background: var(--background-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: 0.4s;
+  }
+}
+
+/* home 440*/
+.home {
+  padding-top: 21rem;
+  max-width: 73rem;
+  margin: 0 auto;
+  font-weight: 600;
+  min-height: 100vh;
+  &__inner {
+    @include flex(space-between, center);
+  }
+  &__avatar {
+    & img {
+      border: 0.4rem solid var(--text-color);
+      border-radius: 50%;
+      width: 37rem;
+      height: 37rem;
+      cursor: pointer;
+      filter: drop-shadow(0rem 0rem 5rem var(--text-color));
+      transition: 0.5s;
+
+      &:hover {
+        background: var(--background-color);
+        opacity: 0.9; // Độ mờ đục 0.1 -> 1
+        filter: drop-shadow(0rem 0rem 15rem var(--text-color));
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 137rem;
+  padding: 10rem 18.7rem 0;
+  min-height: 100vh;
+
+  &__introduction {
+    max-width: 137rem;
+    background-color: var(--second-background-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    &-heading {
+      @include flex(flex-start);
+      &-line {
+        height: 0.2rem;
+        width: 25rem;
+        margin-left: 1rem;
+        background-color: var(--second-text-color);
+      }
+    }
+    &-main {
+      @include flex(center, center);
+      padding: 2rem 1rem 1rem 5rem;
+      max-width: 100rem;
+      margin: 0 auto;
+      & img {
+        border: 0.2rem solid var(--text-color);
+        border-radius: 50%;
+        width: 23rem;
+        cursor: pointer;
+        filter: blur(0.4rem);
+        transition: 0.4s;
+
+        &:hover {
+          filter: blur(0);
+          transition: 0.4s;
+        }
+      }
+      & span {
+        padding-left: 6rem;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+      }
+    }
+  }
+  &__skills {
+    margin-top: 3rem;
+    padding: 3rem 0 3rem;
+    border: 0.2rem solid var(--text-color);
+    border-radius: 0.5rem;
+    &-heading {
+      margin: 0 0 3rem 3rem;
+      border-left: 0.4rem solid var(--second-text-color);
+      padding-left: 1rem;
+    }
+    &-list {
+      max-width: 85rem;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+      &-item {
+        #icon-html,
+        #icon-css,
+        #icon-js,
+        #icon-python,
+        #icon-cpp,
+        #icon-postgresql {
+          font-size: 3rem;
+          cursor: pointer;
+          margin-right: 1rem;
+        }
+        // &:first-child: {margin-left: 2rem;}
+        @include flex(flex-start, center);
+        margin: 0 auto;
+        width: 20rem;
+        height: 5rem;
+        font-weight: 600;
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+        padding-left: 1.5rem;
+        border: 0.2rem solid var(--text-color);
+        border-radius: 0.5rem;
+        transition: 0.5s;
+        cursor: pointer;
+        &:hover {
+          background-color: var(--text-color);
+          border: 0.2rem solid var(--second-text-color);
+          color: var(--second-text-color);
+          transition: 0.5s;
+        }
+      }
+      // Reset item last
+      &__javascript {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 6% 6%;
+    &__menu,
+    #logo-github {
+      display: none;
+    }
+    #menu-icon {
+      display: block;
+    }
+  }
+  .home {
+    padding-top: 13rem;
+    &__inner {
+      flex-direction: column-reverse;
+    }
+    &__avatar img {
+      width: 70%;
+      height: 70%;
+      margin: 2rem auto 0;
+    }
+    &__introduction {
+      text-align: center;
+      margin-top: 5rem;
+    }
+  }
+  .about {
+    padding: 6%;
+    &__introduction {
+      &-heading-line {
+        display: none;
+      }
+      &-main {
+        padding: 0;
+        flex-direction: column;
+        & span {
+          padding: 5rem;
+          text-align: center;
+        }
+      }
+    }
+    &__skills {
+      height: auto;
+      &-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+// KEYFRAME ANIMATION
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    45deg,
+    var(--second-text-color),
+    var(--text-color)
+  );
+  border-radius: 50px;
+}
