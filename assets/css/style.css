@@ -4,6 +4,13 @@
   --second-text-color: #fefefe;
 }
 
+.change-background {
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+  opacity: 0.1;
+}
+
 .dark-theme {
   --background-color: #fefefe;
   --text-color: #d33e43;
@@ -65,6 +72,7 @@ body {
   font-family: "JetBrains Mono", monospace;
   background-color: var(--background-color);
   color: var(--text-color);
+  font-size: 12px;
 }
 
 /* 1840 1370*/
@@ -197,7 +205,6 @@ body {
   padding: 100px 187px 0;
 }
 .about__introduction {
-  max-width: 1370px;
   border: 3px solid var(--second-text-color);
   overflow: hidden;
   border-radius: 10px;
@@ -300,6 +307,68 @@ body {
 }
 .about__skills-list__javascript {
   margin: 0;
+}
+
+.project {
+  display: none;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.project__inner-heading {
+  padding: 110px 187px 0px;
+  margin: 0 auto;
+}
+.project__inner-heading h3,
+.project__inner-heading h4 {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+.project__inner-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.project__inner-item {
+  padding: 15px;
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+}
+.project__inner-item img {
+  width: max;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.project__inner-item img:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.project__inner-item-content p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: var(--second-text-color);
+}
+.project__inner-item-content span {
+  line-height: 15px;
+  color: var(--second-text-color);
+}
+.project__inner-item-content-detail p {
+  color: var(--text-color);
+  font-size: 13px;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.project__inner-item-content-detail-icon {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: right;
 }
 
 .pg-active {

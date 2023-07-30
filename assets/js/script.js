@@ -8,8 +8,7 @@ darkMode.onclick = function () {
       'invert(100%)';
     document.body.style.transition = '1s';
   } else {
-    document.querySelector('.header__logo-github').style.filter =
-      'invert(0%)';
+    document.querySelector('.header__logo-github').style.filter = 'invert(0%)';
     darkMode.setAttribute('class', 'bx bxs-sun');
   }
 };
