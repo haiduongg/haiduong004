@@ -1,14 +1,11 @@
 :root {
   --background-color: #101010;
-  --second-background-color: #1d1d1d;
   --text-color: #f9d679;
   --second-text-color: #fefefe;
-  transition: 1s;
 }
 
 .dark-theme {
   --background-color: #fefefe;
-  --second-background-color: rgb(184, 184, 184);
   --text-color: #d33e43;
   --second-text-color: #101010;
 }
@@ -20,10 +17,6 @@
   word-wrap: $wrap;
 }
 
-html {
-  font-size: 62.5%; // 1 rem = 10px
-}
-
 a {
   text-decoration: none;
   color: var(--second-text-color);
@@ -32,8 +25,8 @@ a {
 h1 {
   position: relative;
   color: var(--second-text-color);
-  font-size: 5rem;
-  padding: 1rem 0;
+  font-size: 50px;
+  padding: 10px 0;
 }
 
 h2 {
@@ -47,27 +40,27 @@ h2 {
     var(--text-color)
   );
 
-  font-size: 3rem;
-  padding: 1rem 0;
+  font-size: 30px;
+  padding: 10px 0;
 
   // Typing Effect
   width: 13ch;
   animation: typing 2s steps(13), blink 0.4s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.3rem solid var(--text-color);
+  border-right: 3px solid var(--text-color);
   animation-delay: 0.5s;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
   color: var(--second-text-color);
 }
 
 h4 {
-  font-size: 1.25rem;
-  padding: 1rem 0;
+  font-size: 12.5px;
+  padding: 10px 0;
 }
 
 *,
@@ -91,13 +84,13 @@ body {
 /* 1840 1370*/
 .wrapper {
   position: relative;
-  max-width: 184rem;
+  max-width: 1840px;
   margin: 0 auto;
   #darkMode-icon {
     position: fixed;
     top: 7%;
     right: 7%;
-    font-size: 3rem;
+    font-size: 30px;
     cursor: pointer;
   }
 }
@@ -107,27 +100,27 @@ body {
   position: fixed;
   // Vỏ bọc {container}
   margin: 0 auto;
-  max-width: 137rem;
-  padding: 0 18.7rem;
+  max-width: 1370px;
+  padding: 0 187px;
 
   top: 0;
   left: 0;
   width: 100%;
   @include flex(space-between, center);
-  padding-top: 3.5rem;
+  padding-top: 35px;
   &__menu-list {
     @include flex(center, center);
   }
   &__menu-item {
-    margin-left: 3.5rem;
-    font-size: 1.25rem;
+    margin-left: 35px;
+    font-size: 12.5px;
     font-weight: 600;
     & a {
       opacity: 0.4;
       transition: 0.5s;
-      border-bottom: 0.3rem solid transparent;
-      padding-bottom: 0.3rem;
-      letter-spacing: 0.1rem;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 3px;
+      letter-spacing: 1px;
       text-transform: uppercase;
       &:hover {
         opacity: 1;
@@ -136,7 +129,7 @@ body {
     }
   }
   &__logo-github {
-    width: 3.8rem;
+    width: 38px;
   }
 }
 
@@ -144,12 +137,12 @@ body {
   color: var(--second-text-color);
   transition: 0.5s;
   opacity: 1 !important;
-  border-bottom: 0.3rem solid var(--text-color) !important;
+  border-bottom: 3px solid var(--text-color) !important;
   transition: 0.5s;
 }
 
 #menu-icon {
-  font-size: 3rem;
+  font-size: 30px;
   color: var(--text-color);
   cursor: pointer;
   display: none;
@@ -158,7 +151,7 @@ body {
 .logo__text {
   position: relative;
   color: var(--text-color);
-  font-size: 1.75rem;
+  font-size: 17.5px;
   font-weight: 600;
   &-first {
     color: var(--second-text-color);
@@ -179,8 +172,8 @@ body {
 /* home 440*/
 .home {
   display: none;
-  padding-top: 21rem;
-  max-width: 73rem;
+  padding-top: 210px;
+  max-width: 730px;
   margin: 0 auto;
   font-weight: 600;
   min-height: 100vh;
@@ -189,18 +182,18 @@ body {
   }
   &__avatar {
     & img {
-      border: 0.4rem solid var(--text-color);
+      border: 4px solid var(--text-color);
       border-radius: 50%;
-      width: 37rem;
-      height: 37rem;
+      width: 370px;
+      height: 370px;
       cursor: pointer;
-      filter: drop-shadow(0rem 0rem 5rem var(--text-color));
+      filter: drop-shadow(0 0 50px var(--text-color));
       transition: 0.5s;
 
       &:hover {
         background: var(--background-color);
         opacity: 0.9; // Độ mờ đục 0.1 -> 1
-        filter: drop-shadow(0rem 0rem 15rem var(--text-color));
+        filter: drop-shadow(0 0 150px var(--text-color));
         transition: 0.5s;
       }
     }
@@ -210,36 +203,35 @@ body {
 .about {
   display: none;
   margin: 0 auto;
-  max-width: 137rem;
-  padding: 10rem 18.7rem 0;
-  min-height: 100vh;
+  max-width: 1370px;
+  padding: 100px 187px 0;
   &__introduction {
-    max-width: 137rem;
-    border: .3rem solid var(--second-text-color);
+    max-width: 1370px;
+    border: 3px solid var(--second-text-color);
     overflow: hidden;
     
-    border-radius: 1rem;
-    padding: 2rem;
+    border-radius: 10px;
+    padding: 20px;
     &-heading {
       @include flex(flex-start);
       &-line {
-        height: 0.2rem;
-        width: 25rem;
-        margin-left: 1rem;
+        height: 2px;
+        width: 250px;
+        margin-left: 10px;
         background-color: var(--second-text-color);
       }
     }
     &-main {
       @include flex(center, center);
-      padding: 2rem 1rem 1rem 5rem;
-      max-width: 100rem;
+      padding: 20px 10px 10px 50px;
+      max-width: 1000px;
       margin: 0 auto;
       & img {
-        border: 0.2rem solid var(--text-color);
+        border: 2px solid var(--text-color);
         border-radius: 50%;
-        width: 23rem;
+        width: 230px;
         cursor: pointer;
-        filter: blur(0.4rem);
+        filter: blur(4px);
         transition: 0.4s;
 
         &:hover {
@@ -249,33 +241,33 @@ body {
       }
       & span {
         & p {
-          font-size: 2rem;
-          padding-bottom: 0.8rem;
+          font-size: 20px;
+          padding-bottom: 8px;
         }
-        padding-left: 6rem;
-        font-size: 1.4rem;
+        padding-left: 60px;
+        font-size: 14px;
         font-weight: 600;
-        letter-spacing: 0.1rem;
-        line-height: 2.5rem;
+        letter-spacing: 1px;
+        line-height: 25px;
       }
     }
   }
   &__skills {
-    margin-top: 3rem;
-    padding: 3rem 0 3rem;
-    border: 0.3rem solid var(--text-color);
-    border-radius: 0.5rem;
+    margin-top: 30px;
+    padding: 30px 0 30px;
+    border: 3px solid var(--text-color);
+    border-radius: 5px;
     &-heading {
-      margin: 0 0 3rem 3rem;
-      border-left: 0.4rem solid var(--second-text-color);
-      padding-left: 1rem;
+      margin: 0 0 30px 30px;
+      border-left: 4px solid var(--second-text-color);
+      padding-left: 10px;
     }
     &-list {
-      max-width: 85rem;
+      max-width: 850px;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 2rem;
+      gap: 20px;
       &-item {
         #icon-html,
         #icon-css,
@@ -283,26 +275,26 @@ body {
         #icon-python,
         #icon-cpp,
         #icon-postgresql {
-          font-size: 3rem;
+          font-size: 30px;
           cursor: pointer;
-          margin-right: 1rem;
+          margin-right: 10px;
         }
-        // &:first-child: {margin-left: 2rem;}
+        // &:first-child: {margin-left: 20px;}
         @include flex(flex-start, center);
         margin: 0 auto;
-        width: 20rem;
-        height: 5rem;
+        width: 200px;
+        height: 50px;
         font-weight: 600;
-        font-size: 1.3rem;
-        letter-spacing: 0.2rem;
-        padding-left: 1.5rem;
-        border: 0.2rem solid var(--text-color);
-        border-radius: 0.5rem;
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding-left: 15px;
+        border: 2px solid var(--text-color);
+        border-radius: 5px;
         transition: 0.5s;
         cursor: pointer;
         &:hover {
           background-color: var(--text-color);
-          border: 0.2rem solid var(--second-text-color);
+          border: 2px solid var(--second-text-color);
           color: var(--second-text-color);
           transition: 0.5s;
         }
@@ -334,18 +326,18 @@ body {
     }
   }
   .home {
-    padding-top: 13rem;
+    padding-top: 130px;
     &__inner {
       flex-direction: column-reverse;
     }
     &__avatar img {
       width: 70%;
       height: 70%;
-      margin: 2rem auto 0;
+      margin: 20px auto 0;
     }
     &__introduction {
       text-align: center;
-      margin-top: 5rem;
+      margin-top: 50px;
     }
   }
   .about {
@@ -358,7 +350,7 @@ body {
         padding: 0;
         flex-direction: column;
         & span {
-          padding: 5rem;
+          padding: 50px;
           text-align: center;
         }
       }
@@ -404,7 +396,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(
