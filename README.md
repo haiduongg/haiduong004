@@ -1,4 +1,4 @@
-<p align="center" style="color: #e75a7c">Halo, I'm Cao Hai Duong 👋</p>
+<h1 align="center" style="color: #e75a7c;">Halo, I'm Cao Hai Duong 👋</h1>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=F81C54&background=FFFFFF00&center=true&vCenter=true&width=670&height=70&lines=Welcome+to+my+Github+Profile;Web+Developer;Always learning new things" alt="Welcome to my Github">
 </p>
