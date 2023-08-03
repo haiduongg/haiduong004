@@ -139,12 +139,22 @@
 <!-- Github Stats-->
 <details>
 	<summary><h2>📈 Github Stats</h2></summary>
+	<!-- https://github.com/haiduongg/github-readme-stats -->
 
-![](https://github-readme-stats.vercel.app/api?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false)
-![](https://github-readme-streak-stats.herokuapp.com/?user=haiduong004&theme=dracula&hide_border=false)
+<h3>🔥 Streak Stats</h3>
+
+<a><image src="https://streak-stats.demolab.com?user=haiduongg&theme=dracula&hide_border=true"/></a>
+
+<h3>⚡ GitHub Profile Stats</h3>
+
+<a><image src="https://github-readme-stats.vercel.app/api?username=haiduongg&theme=dracula&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="192px"/></a>
+<a><image src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiduongg&hide_progress=true&theme=dracula&hide_border=true&langs_count=8" height="192px"/></a>
+
+<a><image src="https://github-readme-activity-graph.vercel.app/graph/?username=haiduongg&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true"/></a>
+</details>
 
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<!-- ![](https://github-readme-stats.vercel.app/api/top-langs/?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=haiduong004&theme=dracula&no-frame=false&no-bg=false&margin-w=4)
@@ -153,4 +163,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ## Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=haiduong004&limit=5&theme=dracula&combine_all_yearly_contributions=true) 
+![](https://github-contributor-stats.vercel.app/api?username=haiduong004&limit=5&theme=dracula&combine_all_yearly_contributions=true)  -->
