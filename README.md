@@ -144,12 +144,14 @@
 <h3>🔥 Streak Stats</h3>
 <a href="https://github.com/haiduongg/github-readme-stats"><image src="https://streak-stats.demolab.com?user=haiduongg&theme=dracula&hide_border=true"/></a>
 
-<b>Note:</b> <a href="https://github.com/haiduongg/github-readme-stats">My github stats</a>
+<b>P/s:</b> <a href="https://github.com/haiduongg/github-readme-stats">My github stats</a>
 
 <h3>⚡ GitHub Profile Stats</h3>
 
 <a href="https://github.com/haiduongg/github-readme-stats"><image src="https://github-readme-stats.vercel.app/api?username=haiduongg&theme=dracula&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="185px"/></a>
 <a><image src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiduongg&hide_progress=true&theme=dracula&hide_border=true&langs_count=8" height="185px"/></a>
+
+<b>Note:</b> Top languages is only a metric of the languages my public code consists of
 
 <a href="https://github.com/haiduongg/github-readme-stats"><image src="https://github-readme-activity-graph.vercel.app/graph/?username=haiduongg&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true"/></a>
 </details>
