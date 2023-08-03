@@ -1,4 +1,4 @@
-## Hi there 👋
+<center><h1>Halo. I'm Cao Hai Duong 👋</h1></center>
 
 ***Hello everyone!***
 
@@ -13,11 +13,11 @@ I am currently a Web Developer and my future goal is to become a Fullstack Devel
 
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
-## Statistics
+# Statistics
 ![](https://github-readme-stats.vercel.app/api?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=haiduong004&theme=dracula&hide_border=false)
 
-## Tech:
+# Tech:
 
 Languages
 
