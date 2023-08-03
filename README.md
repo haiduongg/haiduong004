@@ -1,6 +1,6 @@
 <center><h1 align="center">Halo, I'm Cao Hai Duong 👋</h1></center>
 <p align="center">
-  <img src="hhttps://readme-typing-svg.demolab.com?font=Fira+Code&size=33&pause=1000&color=F70202&background=FFFFFF00&center=true&vCenter=true&width=670&height=70&lines=Welcome+to+my+Github+Profile+%5E.%5E;Web+Developer" alt="Welcome">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=33&pause=1000&color=F70202&background=FFFFFF00&center=true&vCenter=true&width=670&height=70&lines=Welcome+to+my+Github+Profile+%5E.%5E;Web+Developer" alt="Welcome">
 </p>
 
 ***Hello everyone!***
