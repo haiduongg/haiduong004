@@ -7,9 +7,9 @@
 
 <!-- About me -->
 <div align="center">
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-	<p>Cao Hai Duong</p>
-    <img src="https://img.upanh.tv/2023/08/03/Untitled-1d60df946eb85e9c3.png" />
+  <div style="display: flex;">
+	<p>Cao Hai Duong <img src="https://img.upanh.tv/2023/08/03/Untitled-1d60df946eb85e9c3.png" /> </p>
+    
   </div>
 </div>
 
