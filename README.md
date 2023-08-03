@@ -6,14 +6,12 @@
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
 <!-- About me -->
-<table style="border: none;">
-  <tr>
-    <td valign="top">
-		<p>My name is Cao Hai Duong</p>
-	</td>
-    <td><img src="https://img.upanh.tv/2023/08/03/Untitled-1d60df946eb85e9c3.png"/></td>
-  </tr>
-</table>
+<div align="center">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+	<p>Cao Hai Duong</p>
+    <img src="https://img.upanh.tv/2023/08/03/Untitled-1d60df946eb85e9c3.png" />
+  </div>
+</div>
 
 <!-- Github Stats-->
 <details>
