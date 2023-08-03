@@ -148,7 +148,7 @@
 <h3>⚡ GitHub Profile Stats</h3>
 
 <a><image src="https://github-readme-stats.vercel.app/api?username=haiduongg&theme=dracula&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="192px"/></a>
-<a><image src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiduongg&hide_progress=true&theme=dracula&hide_border=true&langs_count=8" height="192px"/></a>
+<a><image src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiduongg&hide_progress=true&theme=dracula&hide_border=true&langs_count=8" width="400px"/></a>
 
 <a><image src="https://github-readme-activity-graph.vercel.app/graph/?username=haiduongg&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true"/></a>
 </details>
