@@ -1,4 +1,4 @@
-<center><h1>Halo. I'm Cao Hai Duong 👋</h1></center>
+<h1 align="center">Halo. I'm Cao Hai Duong 👋</h1>
 
 ***Hello everyone!***
 
