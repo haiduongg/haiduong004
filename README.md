@@ -5,6 +5,16 @@
 
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
+<!-- About me -->
+<table>
+  <tr>
+    <td valign="top">
+		<p>My name is Cao Hai Duong</p>
+	</td>
+    <td><img src="https://upanh.tv/image/jiaXmO"/></td>
+  </tr>
+</table>
+
 <!-- Github Stats-->
 <details>
 	<summary><h2>📈 Github Stats</h2></summary>
