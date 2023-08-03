@@ -6,7 +6,7 @@
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
 <!-- About me -->
-<table>
+<table style="border: none;">
   <tr>
     <td valign="top">
 		<p>My name is Cao Hai Duong</p>
