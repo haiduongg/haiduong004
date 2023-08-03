@@ -2,17 +2,11 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=1000&color=F81C54&background=FFFFFF00&center=true&vCenter=true&width=670&height=70&lines=Welcome+to+my+Github+Profile;Web+Developer;Always learning new things" alt="Welcome to my Github">
 </p>
-
-[![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
-
 <!-- About me -->
-<div align="center">
-  <div style="display: flex; display: block;">
-	<p valign="top" width="200px">Cao Hai Duong </p>
-	<img src="https://img.upanh.tv/2023/08/03/Untitled-1d60df946eb85e9c3.png" />
-  </div>
-</div>
-
+<p>My full name is Cao Hai Duong, Vietnamese Programmer. </p>
+<p>I was born in 2004 in a rural area in Vietnam.
+I am currently a Web Developer and my future goal is to become a Fullstack Developer. Programming Languages can I use “C++”, “Python”, “HTML”, “Css”, “Javascript”,... and some common Framework. </p>
+[![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 <!-- Github Stats-->
 <details>
 	<summary><h2>📈 Github Stats</h2></summary>
