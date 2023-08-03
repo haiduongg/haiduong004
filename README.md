@@ -9,7 +9,7 @@
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
 <!-- Github Stats-->
-<details>
+<details open>
 	<summary><h2>📈 Github Stats</h2></summary>
 	<!-- https://github.com/haiduongg/github-readme-stats -->
 
