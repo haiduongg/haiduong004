@@ -3,8 +3,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=1000&color=F81C54&background=FFFFFF00&center=true&vCenter=true&width=670&height=70&lines=Welcome+to+my+Github+Profile;Web+Developer;Always learning new things" alt="Welcome to my Github">
 </p>
 
+[![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
+
+<!-- Keep track all technology I used to-->
 <details>
-	<summary><h2>Techs Stack</h2></summary>
+	<summary><h2>🛠️ Technologies Stack</h2></summary>
 	<!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
 
 <h3>🚀 Programming and Markup Languages</h3>
@@ -132,8 +135,6 @@
 	<a src=""><image src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"/></a>
 </p>
 </details>
-
-[![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
 # Statistics
 ![](https://github-readme-stats.vercel.app/api?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false)
