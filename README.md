@@ -136,14 +136,15 @@
 </p>
 </details>
 
-# Statistics
+<!-- Github Stats-->
+<details>
+	<summary><h2>📈 Github Stats</h2></summary>
+
 ![](https://github-readme-stats.vercel.app/api?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=haiduong004&theme=dracula&hide_border=false)
 
-# Tech:
 
-<!-- ## MOST USED LANGUAGES-->
-<!-- ![](https://github-readme-stats.vercel.app/api/top-langs/?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=haiduong004&theme=dracula&no-frame=false&no-bg=false&margin-w=4)
@@ -152,4 +153,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ## Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=haiduong004&limit=5&theme=dracula&combine_all_yearly_contributions=true) -->
+![](https://github-contributor-stats.vercel.app/api?username=haiduong004&limit=5&theme=dracula&combine_all_yearly_contributions=true) 
