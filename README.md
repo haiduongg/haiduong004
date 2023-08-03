@@ -36,8 +36,8 @@
 <h3>Database</h3>
 
 <p>
-	<a src=""><image src="https://img.shields.io/badge/mysql-%2300f.svstyle=flat&logo=mysql&logoColor=white"/></a>
-	<a src=""><image src="https://img.shields.io/badge/postgres-%23316192.svstyle=flat&logo=postgresql&logoColor=white"/></a>
+	<a src=""><image src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/></a>
+	<a src=""><image src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/></a>
 </p>
 
 <h3>Other</h3>
