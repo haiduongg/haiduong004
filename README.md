@@ -3,10 +3,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=1000&color=F81C54&background=FFFFFF00&center=true&vCenter=true&width=670&height=70&lines=Welcome+to+my+Github+Profile;Web+Developer;Always learning new things" alt="Welcome to my Github">
 </p>
 <!-- About me -->
-<p>My full name is Cao Hai Duong, Vietnamese Programmer. </p>
+<p>My full name is <b>Cao Hai Duong</b>, Vietnamese Programmer. </p>
 <p>I was born in 2004 in a rural area in Vietnam.
 I am currently a Web Developer and my future goal is to become a Fullstack Developer. Programming Languages can I use “C++”, “Python”, “HTML”, “Css”, “Javascript”,... and some common Framework. </p>
+
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
+
 <!-- Github Stats-->
 <details>
 	<summary><h2>📈 Github Stats</h2></summary>
