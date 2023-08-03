@@ -6,7 +6,7 @@
 <details>
 	<summary><h2>Techs Stack</h2></summary>
 	<!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
-
+	
 	<h3>Programming and Markup Languages</h3>
 
    	<p>
@@ -46,6 +46,7 @@
 		<a src=""><image src="https://img.shields.io/badge/Linux-FCC624?style=flalogo=linux&logoColor=black"/></a>
 		<a src=""><image src="https://img.shields.io/badge/Postman-FF6C3style=flat&logo=postman&logoColor=white"/></a>
 	</p>
+</details>
 
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
