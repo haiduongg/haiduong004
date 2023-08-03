@@ -4,7 +4,7 @@
 </p>
 <!-- About me -->
 <p>My full name is <b>Cao Hai Duong</b>, Vietnamese Programmer. </p>
-<p>I was born in 2004, in a rural area in Vietnam. I am currently a Web Developer and my future goal is to become a Fullstack Developer. Programming Languages can I use “C++”, “Python”, “HTML”, “Css”, “Javascript”,... and some common Framework. </p>
+<p>I was born in 2004, in a rural area in Vietnam. I am currently a Web Developer and my future goal is to become a Fullstack Developer. Programming Languages can I use “C++”, “Python”, “HTML”, “Css”, “Javascript”,... and some population Framework. </p>
 
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
