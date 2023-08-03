@@ -5,6 +5,25 @@
 
 [![](https://visitcount.itsvg.in/api?id=haiduong004&icon=2&color=10)](https://visitcount.itsvg.in)
 
+<!-- Github Stats-->
+<details>
+	<summary><h2>📈 Github Stats</h2></summary>
+	<!-- https://github.com/haiduongg/github-readme-stats -->
+
+<h3>🔥 Streak Stats</h3>
+<a href="https://github.com/haiduongg/github-readme-stats"><image src="https://streak-stats.demolab.com?user=haiduongg&theme=dracula&hide_border=true"/></a>
+
+<b>P/s:</b> <a href="https://github.com/haiduongg/github-readme-stats">My github stats</a>
+
+<h3>⚡ GitHub Profile Stats</h3>
+
+<a href="https://github.com/haiduongg/github-readme-stats"><image src="https://github-readme-stats.vercel.app/api?username=haiduongg&theme=dracula&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="185px"/></a>
+<a><image src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiduongg&hide_progress=true&theme=dracula&hide_border=true&langs_count=8" height="185px"/></a>
+
+<b>Note:</b> Top languages is only a metric of the languages my public code consists of
+
+<a href="https://github.com/haiduongg/github-readme-stats"><image src="https://github-readme-activity-graph.vercel.app/graph/?username=haiduongg&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true"/></a>
+</details>
 <!-- Keep track all technology I used to-->
 <details>
 	<summary><h2>🛠️ Technologies Stack</h2></summary>
@@ -135,35 +154,3 @@
 	<a src=""><image src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"/></a>
 </p>
 </details>
-
-<!-- Github Stats-->
-<details>
-	<summary><h2>📈 Github Stats</h2></summary>
-	<!-- https://github.com/haiduongg/github-readme-stats -->
-
-<h3>🔥 Streak Stats</h3>
-<a href="https://github.com/haiduongg/github-readme-stats"><image src="https://streak-stats.demolab.com?user=haiduongg&theme=dracula&hide_border=true"/></a>
-
-<b>P/s:</b> <a href="https://github.com/haiduongg/github-readme-stats">My github stats</a>
-
-<h3>⚡ GitHub Profile Stats</h3>
-
-<a href="https://github.com/haiduongg/github-readme-stats"><image src="https://github-readme-stats.vercel.app/api?username=haiduongg&theme=dracula&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="185px"/></a>
-<a><image src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiduongg&hide_progress=true&theme=dracula&hide_border=true&langs_count=8" height="185px"/></a>
-
-<b>Note:</b> Top languages is only a metric of the languages my public code consists of
-
-<a href="https://github.com/haiduongg/github-readme-stats"><image src="https://github-readme-activity-graph.vercel.app/graph/?username=haiduongg&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true"/></a>
-</details>
-
-
-<!-- ![](https://github-readme-stats.vercel.app/api/top-langs/?username=haiduong004&theme=dracula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-## GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=haiduong004&theme=dracula&no-frame=false&no-bg=false&margin-w=4)
-
-## Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-## Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=haiduong004&limit=5&theme=dracula&combine_all_yearly_contributions=true)  -->
